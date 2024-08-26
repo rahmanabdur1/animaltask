@@ -4,7 +4,7 @@ import { addAnimal } from "@/lib/action";
 
 import { useFormState } from "react-dom";
 
-const AddAnimal = ({ closePopup }) => {
+const AddAnimalForm = ({ closePopup }) => {
     // Initialize form state
     const [state, formAction] = useFormState(addAnimal);
 
@@ -40,4 +40,4 @@ const AddAnimal = ({ closePopup }) => {
     );
 };
 
-export default AddAnimal;
+export default AddAnimalForm;

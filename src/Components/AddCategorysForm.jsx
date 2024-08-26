@@ -2,7 +2,7 @@
 import { useFormState } from "react-dom";
 import { addCategory } from "@/lib/action";
 
-const AddCategory = ({ closePopup }) => {
+const AddCategorysForm = ({ closePopup }) => {
     const [state, formAction] = useFormState(addCategory);
 
     return (
@@ -29,4 +29,4 @@ const AddCategory = ({ closePopup }) => {
     );
 };
 
-export default AddCategory;
+export default AddCategorysForm;

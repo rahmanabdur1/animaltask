@@ -11,9 +11,12 @@
   "dependencies": {
     "mongodb": "^6.8.0",
     "mongoose": "^8.5.3",
+    "multer": "^1.4.5-lts.1",
     "next": "14.2.6",
+    "next-cloudinary": "^6.10.1",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "use-debounce": "^10.0.3"
   },
   "devDependencies": {
     "eslint": "^8",
